@@ -23,6 +23,7 @@
     },
     "android": {
       "package": "net.cappelleri.trovax",
+      "versionCode": "201",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
