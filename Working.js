@@ -616,7 +616,7 @@ export default class Working extends React.Component {
           token: body.token,
           messages: [...this.state.messages, 'ℹ Accesso eseguito...']
         }, () => {
-          if (codicefiscale === 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') {
+          if (codicefiscale === 'XX') {
             this.doSearchFacilities();
           } else {
             this.doCheckPatient();

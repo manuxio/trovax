@@ -2,7 +2,7 @@
   "expo": {
     "name": "troVax",
     "slug": "trovax",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,10 +18,11 @@
     ],
     "ios": {
       "bundleIdentifier": "net.cappelleri.trovax",
-      "buildNumber": "1.0.0",
+      "buildNumber": "2.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "net.cappelleri.trovax",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
