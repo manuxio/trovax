@@ -2,12 +2,12 @@
   "expo": {
     "name": "troVax",
     "slug": "trovax",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -18,13 +18,18 @@
     ],
     "ios": {
       "bundleIdentifier": "net.cappelleri.trovax",
-      "buildNumber": "2.0.2",
+      "buildNumber": "2.0.3",
       "supportsTablet": true
     },
     "android": {
       "package": "net.cappelleri.trovax",
-      "versionCode": "202",
+      "versionCode": "203",
       "icon": "./assets/icon.png",
+      "splash": {
+        "mdpi": "./assets/splash-mid.png",
+        "backgroundColor": "#6C5AEE",
+        "resizeMode": "cover"
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
